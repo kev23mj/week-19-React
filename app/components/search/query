@@ -1,0 +1,11 @@
+var React = require('react');
+
+var Query = React.createClass({
+
+  getInitialState: function(){
+    return {
+      search: "",
+      start: "",
+      end: "",
+    }
+  },
